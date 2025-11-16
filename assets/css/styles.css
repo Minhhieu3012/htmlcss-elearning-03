@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #0d1111;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+}
+
+/* ================================= Common ==================================== */
+a {
+  text-decoration: none;
+}
+
+.main-content {
+  width: 1170px;
+  max-width: calc(100% - 48px); /* 24px padding on each side */
+  margin: 0 auto;
+}
+
+/* ================================= Header ==================================== */
+.header.fixed {
+  position: sticky;
+}
+
+header .body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 52px 0 8px; /* padding trên 52px, dưới 8px */
+}
+
+.nav ul {
+  display: flex;
+}
+
+.nav a {
+  padding: 8px 20px;
+  font-size: 1.6rem;
+  color: #2f3a3b;
+}
+
+.nav a:hover,
+.nav li.active a {
+  /* font-weight: 600; */
+  text-shadow: 1px 0 0 currentColor; /* Làm cho chữ đậm hơn và không bị giật nội dung như font-weight*/
+}
+
+.header .action-link {
+  font-size: 1.6rem;
+  color: #494949;
+}
+
+.header .action-btn {
+  padding: 12px 24px;
+  border: 1px solid #1ebfc1;
+  border-radius: 6px;
+  margin-left: 24px;
+  font-weight: 600;
+  font-size: 1.6rem;
+  color: #1ebfc1;
+}
+
+.header .action-btn:hover {
+  background: #1ebfc1;
+  color: #fff;
+}
+
+/* ================================= Hero ==================================== */
