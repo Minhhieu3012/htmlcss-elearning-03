@@ -3,7 +3,7 @@
 }
 
 :root {
-  --primary-color: #0d1111;
+  --primary-color: #1ebfc1;
 }
 
 html {
@@ -75,3 +75,134 @@ header .body {
 }
 
 /* ================================= Hero ==================================== */
+.hero {
+  padding: 42px 0 79px;
+}
+
+.hero .body {
+  display: flex;
+}
+
+/* Hero left */
+.hero .content-block {
+  width: 45%;
+  padding-top: 93px; /* 243px - 150px = 93px */
+}
+
+.hero span {
+  font-size: 1.4rem;
+  color: #767e7e;
+}
+
+.hero .heading {
+  margin-top: 18px;
+  font-weight: 700;
+  font-size: 6.2rem;
+  line-height: 1.16;
+  color: #0d1111;
+}
+
+.hero .content-block .desc {
+  width: 374px;
+  margin-top: 46px;
+  font-size: 1.8rem;
+  line-height: 1.78;
+  color: #9da6a5;
+}
+
+.hero .cta-group {
+  display: flex;
+  margin-top: 52px;
+}
+
+.hero-cta {
+  min-width: 186px;
+  line-height: 68px; /* Chiều cao nút */
+  background: var(--primary-color);
+  box-shadow: 0px 10px 50px 0px #0000000d;
+  border-radius: 14px;
+  font-weight: 600;
+  font-size: 1.8rem;
+  text-align: center;
+  color: #ffffff;
+}
+
+.hero .watch-video {
+  margin-left: 50px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.hero .watch-video .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 62px;
+  height: 62px;
+  border-radius: 50%;
+  box-shadow: 0px 22px 50px 0px #0000000d;
+  color: #ffffff;
+}
+
+/* Hero right */
+.hero .media-block {
+  position: relative;
+  width: 55%; /* 641px / 1170px * 100% = 54.8% */
+  padding: 42px 0 0 71px; /* 50px - 8px = 42px */
+}
+
+.hero .media-block .img {
+  width: 576px;
+  height: 631px;
+  object-fit: cover;
+  display: block;
+}
+
+.card-course {
+  position: absolute;
+  width: 157px;
+  height: 75px;
+  background: #fefefd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+  box-shadow: 0px 10px 80px 0px #0000000d;
+}
+
+.card-course .item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.card-course .block-icon {
+  position: relative;
+  width: 36px;
+  height: 40px;
+  background: #ff8282;
+  border-radius: 4px 2px 2px 4px;
+}
+
+.card-course .block-icon::after {
+  position: absolute;
+  content: "";
+  width: 28px;
+  height: 4px;
+  background: #ffffff;
+  border-radius: 4px;
+  bottom: 8px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.card-course .desc strong {
+  width: 55px;
+  line-height: 1.6;
+  font-weight: 500;
+  font-size: 1rem;
+  color: #0d1111;
+  display: flex;
+  flex-direction: column;
+}
