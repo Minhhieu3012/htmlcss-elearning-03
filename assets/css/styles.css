@@ -15,7 +15,7 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-/* ================================= Common ==================================== */
+/* ==================================== Common ======================================= */
 a {
   text-decoration: none;
 }
@@ -26,7 +26,7 @@ a {
   margin: 0 auto;
 }
 
-/* ================================= Header ==================================== */
+/* ==================================== Header ======================================= */
 .header.fixed {
   position: sticky;
 }
@@ -74,7 +74,7 @@ header .body {
   color: #fff;
 }
 
-/* ================================= Hero ==================================== */
+/* ==================================== Hero ======================================= */
 .hero {
   padding: 42px 0 79px;
 }
@@ -159,6 +159,7 @@ header .body {
   display: block;
 }
 
+/* Card 1 */
 .card-course {
   position: absolute;
   width: 157px;
@@ -205,4 +206,99 @@ header .body {
   color: #0d1111;
   display: flex;
   flex-direction: column;
+}
+
+/* Card 2 */
+.card-schedules {
+  position: absolute;
+  width: 124px;
+  height: 132px;
+  padding: 16px 25px 23px;
+  border-radius: 24px;
+  background: #ffffff;
+  box-shadow: 0px 10px 80px 0px #0000000d;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card-schedules .item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.card-schedules .desc {
+  font-weight: 500;
+  font-size: 1rem;
+  color: #0d1111;
+  margin-bottom: 16px;
+}
+
+.bar-inactive {
+  position: relative;
+  width: 74px;
+  height: 6px;
+  background: #edf1f5;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.bar-active {
+  height: 6px;
+  background: #fb9899;
+  border-radius: 3px;
+}
+
+.bar-inactive-last {
+  width: 26px;
+  height: 6px;
+  background: #edf1f5;
+  border-radius: 3px;
+  margin-top: 4px;
+}
+
+/* Card 3 */
+.card-our-active-students {
+  position: absolute;
+  width: 207px;
+  height: 90px;
+  padding: 17px 35px;
+  background: #fefefd;
+  border-radius: 24px;
+  box-shadow: 0px 12px 80px 0px #0000000d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-our-active-students .desc {
+  margin-right: auto;
+  width: 100px;
+  font-weight: 500;
+  font-size: 1rem;
+  color: #0d1111;
+}
+
+.card-our-active-students .avatar-group {
+  margin-top: 8px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card-our-active-students .avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 33px;
+  height: 33px;
+  margin-left: -7px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.card-our-active-students .avatar:first-child {
+  margin-left: 0;
 }
