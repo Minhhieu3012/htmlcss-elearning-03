@@ -127,6 +127,10 @@ header .body {
   color: #ffffff;
 }
 
+.hero-cta:hover {
+  opacity: 0.8;
+}
+
 .hero .watch-video {
   margin-left: 50px;
   border: none;
@@ -170,6 +174,8 @@ header .body {
   justify-content: center;
   border-radius: 18px;
   box-shadow: 0px 10px 80px 0px #0000000d;
+  top: 149px;
+  left: 30px;
 }
 
 .card-course .item {
@@ -220,6 +226,8 @@ header .body {
   display: flex;
   align-items: center;
   flex-direction: column;
+  top: 453px;
+  left: 8px;
 }
 
 .card-schedules .item {
@@ -272,6 +280,8 @@ header .body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  right: 45px;
+  top: 530px;
 }
 
 .card-our-active-students .desc {
@@ -301,4 +311,81 @@ header .body {
 
 .card-our-active-students .avatar:first-child {
   margin-left: 0;
+}
+
+/* ==================================== Features ======================================= */
+.features {
+  padding: 130px 0;
+}
+
+.features span {
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: #767e7e;
+}
+
+.features-header {
+  width: 591px;
+}
+
+.features .title {
+  margin-top: 18px;
+  font-weight: 700;
+  font-size: 4.2rem;
+  line-height: 1.33;
+  color: #0d1111;
+}
+
+.features .features-header .desc {
+  margin-top: 18px;
+  font-size: 1.8rem;
+  color: #767e7e;
+}
+
+.features-body {
+  width: 1024px;
+  margin-top: 80px;
+  display: flex;
+  gap: 200px;
+}
+
+.features-card:nth-child(1) .icon {
+  background: #ffc147;
+  width: 102px;
+  height: 106px;
+  border-radius: 18px;
+}
+
+.features-card:nth-child(2) .icon {
+  background: #ff947a;
+  width: 102px;
+  height: 106px;
+  border-radius: 18px;
+}
+
+.features-card:nth-child(3) .icon {
+  background: #bf83ff;
+  width: 102px;
+  height: 106px;
+  border-radius: 18px;
+}
+
+.features-card .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.features-card .sub-title {
+  margin-top: 26px;
+  font-weight: 600;
+  font-size: 2rem;
+  color: #0d1111;
+}
+
+.features-card .desc {
+  margin-top: 16px;
+  font-size: 1.6rem;
+  line-height: 1.69;
+  color: #9da6a5;
 }
