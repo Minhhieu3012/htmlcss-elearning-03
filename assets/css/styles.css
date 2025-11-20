@@ -388,4 +388,5 @@ header .body {
   font-size: 1.6rem;
   line-height: 1.69;
   color: #9da6a5;
+  min-width: 224px;
 }
