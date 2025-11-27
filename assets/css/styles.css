@@ -404,3 +404,56 @@ header .body {
   color: #9da6a5;
   min-width: 224px;
 }
+
+/* ==================================== Courses ======================================= */
+.courses .courses-header span {
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: #767e7e;
+}
+
+.courses .courses-header .title {
+  margin-top: 18px;
+  font-weight: 700;
+  font-size: 4.2rem;
+  color: #0d1111;
+}
+
+.desc-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.courses .courses-header .desc {
+  margin-top: 19px;
+  width: 525px;
+  font-size: 1.8rem;
+  line-height: 1.78;
+  color: #767e7e;
+}
+
+.courses-header .courses-view {
+  font-weight: 700;
+  font-size: 1.4rem;
+  color: #1ebfc1;
+  text-decoration: underline;
+}
+
+.courses-body {
+  display: flex;
+  gap: 47px;
+}
+
+.courses-card {
+  width: calc(100% / 3);
+}
+
+.courses-img {
+  width: 359px;
+  height: 393px;
+  border-radius: 8px;
+  opacity: 0.35;
+  object-fit: cover;
+  color: #d0efed;
+}
