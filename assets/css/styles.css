@@ -371,9 +371,23 @@ header .body {
 }
 
 .features-card .icon {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.features-card .icon .dots-list {
+  position: absolute;
+  display: flex;
+  gap: 6px;
+}
+
+.features-card .icon .dots {
+  width: 6px;
+  height: 6px;
+  background: #ffffff;
+  border-radius: 50%;
 }
 
 .features-card .sub-title {
