@@ -448,6 +448,8 @@ header .body {
 .courses-card {
   width: calc(100% / 3);
   position: relative;
+  padding-top: 393px; /* Chiều cao của ảnh */
+  margin-bottom: 200px; /* Khoảng cách để box trắng hiển thị */
 }
 
 .courses-body {
@@ -469,6 +471,7 @@ header .body {
 .courses-card .courses-content {
   position: absolute;
   width: 325px;
+  /* min-height: 195px; */
   border-radius: 8px;
   background: #ffffff;
   box-shadow: 0px 16px 90px 0px #0000000d;
@@ -476,9 +479,9 @@ header .body {
   flex-direction: column;
   padding: 18px 25px 29px;
   z-index: 10;
-  top: 50%;
+  top: 322px;
   left: 50%;
-  transform: translate(-50%, 195%); /* 195% = chiều cao của box trắng */
+  transform: translateX(-50%);
 }
 
 .courses-content .title {
@@ -529,4 +532,9 @@ header .body {
 .courses-content .meta-item span {
   font-size: 1.4rem;
   color: #9da6a5;
+}
+
+/* ==================================== Stats ======================================= */
+.stats {
+  padding: 265px 0;
 }
