@@ -561,3 +561,137 @@ header .body {
   font-size: 1.8rem;
   color: #767e7e;
 }
+
+/* ==================================== Rating ======================================= */
+.rating-body {
+  display: flex;
+}
+
+.rating-body .rating-left {
+  width: 36%; /* 419 / 1170 * 100 = 35.811% */
+}
+
+.rating-left .desc {
+  margin-top: 27px;
+  font-size: 3.2rem;
+  line-height: 1.5;
+  color: #5d6564;
+}
+
+.rating-left .author {
+  margin: 33px 0 52px 13px;
+  font-size: 1.6rem;
+  color: #767e7e;
+}
+
+.rating-left .author strong {
+  position: relative;
+  font-weight: 500;
+  font-size: 1.6rem;
+  color: #000000;
+}
+
+.rating-left .author strong::before {
+  position: absolute;
+  content: "";
+  width: 8px;
+  height: 2px;
+  background: #070707;
+  margin-right: 5px;
+  right: 100%;
+  top: 50%;
+}
+
+.rating-nav {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.rating-nav .btn-prev {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #2ac9bf;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rating-nav .btn-prev:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.rating-nav .btn-next {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #2ac9bf;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rating-nav .btn-next:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.rating-body .rating-right {
+  position: relative;
+  width: 64%;
+  height: 481px;
+}
+
+.rating-right .avatar-main img {
+  position: absolute;
+  width: 235px;
+  height: 235px;
+  border-radius: 50%;
+  left: 50%;
+  top: 20%;
+  z-index: 10;
+}
+
+.rating-right .avatar-group {
+  position: relative;
+  /* Chiếm toàn bộ chiều rộng - cao của rating-right */
+  width: 100%;
+  height: 100%;
+}
+
+.rating-right .avatar {
+  position: absolute;
+  width: 78px;
+  height: 78px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.avatar-7 {
+  top: 0%;
+  left: 30%;
+}
+
+.avatar-8 {
+  top: 0%;
+  right: 0%;
+}
+
+.avatar-9 {
+  bottom: 20%;
+  right: 5%;
+}
+
+.avatar-10 {
+  bottom: 40%;
+  left: 10%;
+}
+
+.avatar-11 {
+  top: 70%;
+  left: 35%;
+}
