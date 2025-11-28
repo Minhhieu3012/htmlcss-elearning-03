@@ -737,3 +737,47 @@ header .body {
   opacity: 0.8;
   cursor: pointer;
 }
+
+/* ==================================== Footer ======================================= */
+.footer {
+  margin-top: 130px;
+  margin-bottom: 50px;
+}
+
+.footer .body {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.footer .footer-list {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.footer-list li:first-child a {
+  font-weight: 500;
+  font-size: 1.8rem;
+  color: #2e2e2e;
+}
+
+.footer-list li a {
+  font-size: 1.6rem;
+  color: #535353;
+}
+
+.footer-list li .icon {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  flex-shrink: 0;
+  margin-right: 9px;
+}
+
+.copyright {
+  margin-top: 80px;
+  text-align: center;
+  font-size: 1.8rem;
+  color: #b0b5b4;
+}
