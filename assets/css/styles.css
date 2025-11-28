@@ -6,6 +6,11 @@
   --primary-color: #1ebfc1;
 }
 
+html,
+body {
+  scroll-behavior: smooth; /* cuộn mượt mà khi bấm vào thẻ a có href liên kết trong trang */
+}
+
 html {
   font-size: 62.5%;
 }
@@ -29,6 +34,9 @@ a {
 /* ==================================== Header ======================================= */
 .header.fixed {
   position: sticky;
+  top: 0;
+  z-index: 100; /* Làm cho header nằm trên các phần tử khác */
+  background: #fff;
 }
 
 header .body {
@@ -73,6 +81,13 @@ header .body {
   background: #1ebfc1;
   color: #fff;
 }
+
+/* .line-clamp {
+  display: -webkit-box;
+  -webkit-line-clamp: var(--line-clamp, 2);  số dòng 
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+} */
 
 /* ==================================== Hero ======================================= */
 .hero {
