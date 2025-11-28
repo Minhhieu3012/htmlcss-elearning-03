@@ -695,3 +695,45 @@ header .body {
   top: 70%;
   left: 35%;
 }
+
+/* ==================================== Call To Action ======================================= */
+.cta {
+  margin-top: 130px;
+  background: #def6f5;
+}
+
+.cta .body {
+  display: flex;
+  align-items: center;
+  height: 272px;
+}
+
+.cta .cta-left {
+  margin-right: 410px;
+}
+
+.cta .cta-left .title {
+  font-weight: 700;
+  font-size: 4.2rem;
+  color: #070707;
+}
+
+.cta .cta-left .desc {
+  margin-top: 18px;
+  font-size: 1.8rem;
+  color: #767e7e;
+}
+
+.cta .cta-right .btn {
+  font-weight: 600;
+  font-size: 1.8rem;
+  color: #ffffff;
+  padding: 21px 41px;
+  background: #2ac9bf;
+  border-radius: 14px;
+}
+
+.cta .cta-right .btn:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
